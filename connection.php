@@ -4,10 +4,10 @@
 <body>
 <?php
 
-	$link=mysql_connect("mysql.hostinger.com.br", "u240726327_cris", "CM7947cm")
-     		 or die ("<h1>Não foi possivel conectar !!!</h1>".mysql_error());
+	$link=mysql_connect("local hospedagem", "usuario", "senha")
+     		 or die ("<h1>NÃ£o foi possivel conectar !!!</h1>".mysql_error());
 
-  	$banco=mysql_select_db("u240726327_sis", $link)
+  	$banco=mysql_select_db("bome do bd", $link)
       		 or die ("<h1>Erro ao abrir o banco de dados !!! </h1><BR><BR>".mysql_error());
 ?>
 </body>
